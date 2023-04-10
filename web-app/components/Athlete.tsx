@@ -1,9 +1,21 @@
 import { Canvas, useLoader } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import React from "react";
+import React, { MouseEventHandler } from "react";
+
+const handleDoubleClick: MouseEventHandler<HTMLDivElement> = (event) => {
+  const div: HTMLDivElement = event.currentTarget;
+  div.requestFullscreen();
+};
 
 function Athlete() {
-  return <AthleteUI />;
+  return (
+    <div
+      style={{ width: "100vw", height: "100vh" }}
+      onDoubleClick={handleDoubleClick}
+    >
+      <AthleteUI />
+    </div>
+  );
 }
 
 function AthleteUI() {
