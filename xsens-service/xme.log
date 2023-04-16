@@ -1,0 +1,57 @@
+1681681934.515 <4CD4> [WRITE] Journaller::writeFileHeader Journaller logging to C:/Users/16073/Documents/Developer/technique/xsens-service/xme.log for XME 2023.0.0 / 120521 build 10035 on 2023/04/16 21:52:14.515
+1681681934.515 <4CD4> [WRITE] Journaller::setLogLevel Log level set to [ALERT] 
+1681681934.515 <4CD4> [WRITE] Journaller::setDebugLevel Debugger output log level set to [FATAL] 
+1681681934.515 <4CD4> [WRITE] xdaSetLogger XDA now logging to C:/Users/16073/Documents/Developer/technique/xsens-service/xme.log
+1681681934.550 <4CD4> [WRITE] scanCalibrationFiles Scanning for calibration files in path C:/Users/16073/Documents/Developer/technique/xsens-service/venv/Lib/site-packages/xme/
+1681681934.550 <4CD4> [WRITE] scanCalibrationFiles C:/Users/16073/Documents/Developer/technique/xsens-service/venv/Lib/site-packages/xme/npose.xsa imported as calibration Npose
+1681681934.550 <4CD4> [WRITE] scanCalibrationFiles C:/Users/16073/Documents/Developer/technique/xsens-service/venv/Lib/site-packages/xme/tpose.xsa imported as calibration Tpose
+1681681934.550 <4CD4> [WRITE] scanCalibrationFiles Scanning for calibration files in path C:/Users/16073/Documents/Developer/technique/xsens-service/venv/Lib/site-packages/xme/
+1681681934.551 <4CD4> [WRITE] scanCalibrationFiles C:/Users/16073/Documents/Developer/technique/xsens-service/venv/Lib/site-packages/xme/npose.xsa imported as calibration Npose
+1681681934.551 <4CD4> [WRITE] scanCalibrationFiles C:/Users/16073/Documents/Developer/technique/xsens-service/venv/Lib/site-packages/xme/tpose.xsa imported as calibration Tpose
+1681681934.554 <0740> [ALERT] NetworkScanner::initFunction Failed to bind socket to port 9222 because of error 10048, disabling passive scanning
+1681681935.506 <4CD4> [WRITE] XmeLicense_construct BuildTime = 2022/12/2
+LicenseInfo =
+<hasp_info>
+	<hasp id="1763822036" type="HASP-HL" key_model="Time" configuration="sentinelhl" production_date="2021/11/25" attached="false">
+		<vendor id="104171" name="" />
+		<product id="911" name="XME-DEV-L-D">
+			<feature id="600" name="MVN Software Development Subscription" locked="true" expired="false" disabled="false" usable="true" license_type="perpetual" />
+			<feature id="601" name="MVN Software Development Maintenance" locked="true" expired="false" disabled="false" usable="true" license_type="expiration" exp_date="2025/1/11" />
+		</product>
+	</hasp>
+	<hasp id="544998777129838497" type="HASP-SL" key_model="Certificate" configuration="haspsl-usermode" production_date="2022/5/14" attached="false">
+		<vendor id="104171" name="" />
+		<product id="10" name="Xsens">
+			<feature id="1" name="Xsens" locked="true" expired="false" disabled="false" usable="true" license_type="perpetual" />
+		</product>
+		<product id="300" name="MVN-AL-PRO">
+			<feature id="520" name="XME Redist Subscription" locked="true" expired="true" disabled="false" usable="false" license_type="expiration" exp_date="2022/8/16" />
+			<feature id="521" name="XME Redist Maintenance" locked="true" expired="true" disabled="false" usable="false" license_type="expiration" exp_date="2022/8/16" />
+			<feature id="580" name="MVN Analyze Pro Subscription" locked="true" expired="true" disabled="false" usable="false" license_type="expiration" exp_date="2022/8/16" />
+			<feature id="581" name="MVN Analyze Pro Maintenance" locked="true" expired="true" disabled="false" usable="false" license_type="expiration" exp_date="2022/8/16" />
+		</product>
+	</hasp>
+</hasp_info>
+1681681935.916 <4CD4> [WRITE] XmeLicense_construct BuildTime = 2022/12/2
+LicenseInfo =
+<hasp_info>
+	<hasp id="1763822036" type="HASP-HL" key_model="Time" configuration="sentinelhl" production_date="2021/11/25" attached="false">
+		<vendor id="104171" name="" />
+		<product id="911" name="XME-DEV-L-D">
+			<feature id="600" name="MVN Software Development Subscription" locked="true" expired="false" disabled="false" usable="true" license_type="perpetual" />
+			<feature id="601" name="MVN Software Development Maintenance" locked="true" expired="false" disabled="false" usable="true" license_type="expiration" exp_date="2025/1/11" />
+		</product>
+	</hasp>
+	<hasp id="544998777129838497" type="HASP-SL" key_model="Certificate" configuration="haspsl-usermode" production_date="2022/5/14" attached="false">
+		<vendor id="104171" name="" />
+		<product id="10" name="Xsens">
+			<feature id="1" name="Xsens" locked="true" expired="false" disabled="false" usable="true" license_type="perpetual" />
+		</product>
+		<product id="300" name="MVN-AL-PRO">
+			<feature id="520" name="XME Redist Subscription" locked="true" expired="true" disabled="false" usable="false" license_type="expiration" exp_date="2022/8/16" />
+			<feature id="521" name="XME Redist Maintenance" locked="true" expired="true" disabled="false" usable="false" license_type="expiration" exp_date="2022/8/16" />
+			<feature id="580" name="MVN Analyze Pro Subscription" locked="true" expired="true" disabled="false" usable="false" license_type="expiration" exp_date="2022/8/16" />
+			<feature id="581" name="MVN Analyze Pro Maintenance" locked="true" expired="true" disabled="false" usable="false" license_type="expiration" exp_date="2022/8/16" />
+		</product>
+	</hasp>
+</hasp_info>
